@@ -45,3 +45,4 @@ class MLTests(TestCase):
                     algorithm_description, algorithm_code)
         # there should be one endpoint available
         self.assertEqual(len(registry.endpoints), 1)
+
